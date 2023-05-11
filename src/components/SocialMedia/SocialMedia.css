@@ -1,11 +1,10 @@
 .social-media {
-    position: relative;
+    position: absolute;
     width: 30px;
     height: 30px;
-    margin-right: 16px;
     cursor: pointer;
-    top: 50px;
-    right: 490px;
+    top: 0%;
+    right: 220%;
     transition: transform 0.3s ease-in-out;
 }
 
