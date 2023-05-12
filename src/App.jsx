@@ -9,11 +9,9 @@ import Onboarding from './components/onboarding/Onboarding'
 import FAQ from './components/FAQ/FAQ'
 import DropDownMenu from "./components/DropDownMenu/DropDownMenu.jsx"
 import SocialMedia from "./components/SocialMedia/SocialMedia.jsx"
-import TextoMedio from './components/TextoMedio/TextMedio'
 
 function App() {
   return (
-
     <div className="App">
       <header className='App-header'>
           <SocialMedia />
@@ -35,7 +33,10 @@ function App() {
         <Onboarding></Onboarding>
       </div>
       <div>
-      <LastImage></LastImage>
+        <LastImage></LastImage>
+      </div>
+      <div> 
+        <FAQ></FAQ>
       </div>
     </div>
   )
