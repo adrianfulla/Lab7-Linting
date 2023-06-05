@@ -5,7 +5,8 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
-    "prettier"
+    "prettier",
+    'plugin:prettier/recommended',
   ],
   parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
   settings: { react: { version: '18.2' } },
@@ -13,6 +14,13 @@ module.exports = {
   rules: {
     'react-refresh/only-export-components': 'warn',
     'semi': ["error", "never"],
-    'max-len': ["warn", {"code":120}]
+    'max-len': ["warn", {"code":120}],
+    'prettier/prettier': [
+      'error',
+      {},
+      {
+        usePrettierrc: true,
+      },
+    ],
   },
 }
